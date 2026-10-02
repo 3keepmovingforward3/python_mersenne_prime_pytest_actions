@@ -1,9 +1,6 @@
 import math
 
 def main() -> int:
-    """The main entry point of the program. 
-    Returns an integer exit code (0 for success).
-    """
     print("value  Mersenne Prime")
     for i in range(32):
         if is_prime(i) is True:
