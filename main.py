@@ -30,6 +30,9 @@ def is_prime(n: int):
             return False
     return True
 
+def test_Mn_prime():
+    assert is_prime(((1<<31)-1)) == True
+
 if __name__ == "__main__":
     # sys.exit captures the returned integer and passes it to the OS
     main()
